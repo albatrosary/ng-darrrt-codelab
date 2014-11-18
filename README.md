@@ -7,11 +7,18 @@ With Angular, you can concentrate on your application’s logic, and not on DOM 
 HTML is the template language, which you can extend with
 custom elements and attributes.
 
+AngularDartはAngularのDartの版であり、動的なWebアプリケーションを作成するためのクライアント側の構造的なフレームワークです。Angularを使用すると、アプリケーションのロジックに集中せず、DOM操作することができます。 HTMLは、カスタム要素と属性を拡張することができるテンプレート言語です。
+
 In this one-hour code lab, you'll create an AngularDart web app
 that generates a pirate badge.
 If you've already completed the
 [first Dart code lab](https://www.dartlang.org/codelabs/darrrt/),
 this app should be familiar, but the code is completely different.
+
+1時間のコードラボで、AngularDartのWebアプリケーションを作成します。pirate badgeを作ります。
+既に完了している場合
+[first Dart code lab]（https://www.dartlang.org/codelabs/darrrt/）、
+このアプリに精通している必要がありますが、コードは完全に異なっています。
 
 **Important:**
 AngularDart is in beta, and its API is subject to change.
@@ -19,15 +26,23 @@ Before AngularDart's 1.0 release,
 we expect to fix
 [these bugs](https://github.com/angular/angular.dart/issues?milestone=12)
 (and more).
+
+AngularDartはベータ版で、APIは変更されることがあります。AngularDart 1.0 がリリースされるまでに、修正することを期待
+[these bugs](https://github.com/angular/angular.dart/issues?milestone=12)
+(and more).
+
 **This code lab uses AngularDart version 0.9.8.**
 If you use a more recent version, you'll need to make some
 [changes](docs/diffs.md#differences-between-angulardart-versions).
 <!-- put screenshot here? -->
 
+もし新しいバージョンを使用している場合は、いくつかを確認する必要があります
+[changes](docs/diffs.md#differences-between-angulardart-versions).
 
 ### Steps
 
 This code lab has the following sections:
+コードラボでは次のセクションからなります:
 
 * [Step 0: Set up](docs/step-0.md#step-0-set-up)
 * [Step 1: Run the app, and view its code](docs/step-1.md#step-1-run-the-app-and-view-its-code)
